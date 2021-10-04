@@ -336,33 +336,22 @@ main {
 
 
 
-@media screen and (max-width: 991px) {
-    .red {
-      grid-template-areas: "." "." "." ".";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-right: 525px;
-      margin-left: auto;
-      text-align: center;
-      max-width: 991px;
+@media screen and (max-width: 767px) {
+  .red {
+   
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .red {
     
-    }
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
-  
-  @media screen and (max-width: 767px) {
-    .red {
-      max-width: 470px;
-     margin-left: auto;
-     margin-right: 955px;
-    }
-  }
-  
-  @media screen and (max-width: 479px) {
-    .red {
-      max-width: none;
-  
-    }
-  }
+}
 
 .blue {
     float: left;
@@ -385,30 +374,32 @@ main {
    
 }
 @media screen and (max-width: 991px) {
-    .blue {
-      grid-template-areas: "." "." "." ".";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-left: 15px;
-      margin-right: -315px;
-      text-align: center;
-      right: 50px;
-    }
-  }
+  .blue {
+   max-width: 100%;
+   display: block;
+   position: absolute;
   
-  @media screen and (max-width: 767px) {
-    .blue {
-      max-width: 300px;
-      right: 50px;
-    }
+   float: left;
   }
-  
-  @media screen and (max-width: 479px) {
-    .blue {
-      max-width: none;
-      right: 50px;
-    }
+}
+
+@media screen and (max-width: 767px) {
+  .blue{
+    max-width: 100%;
+    display: block;
+    position: absolute;
+    float: left;
   }
+}
+
+@media screen and (max-width: 479px) {
+  .blue{
+    display: block;
+    position: absolute;
+    float: left;
+   
+  }
+}
 
 /*blockSet3*/
 .yellow2 {
@@ -424,32 +415,23 @@ main {
     align-items: center;
     justify-content: center;
 }
-@media screen and (max-width: 991px) {
-    .yellow2 {
-      grid-template-areas: "." "." "." ".";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-left: 15px;
-      margin-right: -300px;
-      text-align: center;
-      
-      
-    }
+
+@media screen and (max-width: 767px) {
+  .yellow2 {
+   
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  
-  @media screen and (max-width: 767px) {
-    .yellow2{
-      max-width: 470px;
-      
-    }
+}
+
+@media screen and (max-width: 479px) {
+  .yellow2{
+    
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
-  
-  @media screen and (max-width: 479px) {
-    .yellow2{
-      max-width: none;
-     
-    }
-  }
+}
 
 .green2 {
     float: right;
@@ -472,30 +454,32 @@ main {
     z-index: 10;
 }
 @media screen and (max-width: 991px) {
-    .green2 {
-      grid-template-areas: "." "." "." ".";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-left: 15px;
-      margin-right: auto;
-      text-align: center;
-      left: 50px;
-    }
+  .green2{
+   max-width: 100%;
+   display: block;
+   position: absolute;
+   margin-left: 150px;
+   float: right;
   }
-  
-  @media screen and (max-width: 767px) {
-    .green2 {
-      max-width: 300px;
-      left: 50px;
-    }
+}
+
+@media screen and (max-width: 767px) {
+  .green2{
+    max-width: 100%;
+    display: block;
+    position: absolute;
+    float: right;
   }
-  
-  @media screen and (max-width: 479px) {
-    .green2 {
-      max-width: none;
-      left: 50px;
-    }
+}
+
+@media screen and (max-width: 479px) {
+  .green2{
+    display: block;
+    position: absolute;
+    float: right;
+   
   }
+}
 
   /*blockSet4*/
 .blue2 {
@@ -510,34 +494,22 @@ main {
     align-items: center;
     justify-content: center;
 }
-@media screen and (max-width: 991px) {
-    .blue2{
-      grid-template-areas: "." "." "." ".";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-right: 525px;
-      margin-left: auto;
-      text-align: center;
-      max-width: 991px;
-      
-    }
+@media screen and (max-width: 767px) {
+  .blue2{
+   
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  
-  @media screen and (max-width: 767px) {
-    .blue2{
-      max-width: 470px;
-      margin-left: auto;
-      margin-right: 955px;
-      
-    }
+}
+
+@media screen and (max-width: 479px) {
+  .blue2{
+    
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
-  
-  @media screen and (max-width: 479px) {
-    .blue2 {
-      max-width: none;
-      
-    }
-  }
+}
 
 .red2 {
     float: left;
@@ -560,30 +532,32 @@ main {
     z-index: 10;
 }
 @media screen and (max-width: 991px) {
-    .red2  {
-      grid-template-areas: "." "." "." ".";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-left: 15px;
-      margin-right: -315px;
-      text-align: center;
-      
-    }
-  }
+  .red2{
+   max-width: 100%;
+   display: block;
+   position: absolute;
   
-  @media screen and (max-width: 767px) {
-    .red2  {
-      max-width: 300px;
-     
-    }
+   float: left;
   }
-  
-  @media screen and (max-width: 479px) {
-    .red2  {
-      max-width: none;
-      
-    }
+}
+
+@media screen and (max-width: 767px) {
+  .red2{
+    max-width: 100%;
+    display: block;
+    position: absolute;
+    float: left;
   }
+}
+
+@media screen and (max-width: 479px) {
+  .red2{
+    display: block;
+    position: absolute;
+    float: left;
+   
+  }
+}
 
 /* footer */
 
