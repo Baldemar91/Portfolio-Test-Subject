@@ -826,3 +826,24 @@ div#resume.section div#w-node-dac044b7-be90-60f3-414d-4224828ffe12-adaf0624 h3 {
    
   }
 }
+
+#btnScrollToTop{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #7BAC7F;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) ;
+  color:#ffffff;
+  outline: none;
+  cursor: pointer;
+  z-index: 10;
+  border: none;
+}
+
+#btnScrollToTop:active 
+{
+  background-color: #4c6b4f;
+}
