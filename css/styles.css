@@ -310,7 +310,7 @@ main {
     line-height: 22px;
     max-width: 100%;
     position: relative;
-    right: -30px;
+    right: 0px;
     text-decoration: none;
     top: 150px;
     z-index: 1;
@@ -344,7 +344,7 @@ main {
 @media screen and (max-width: 767px) {
   .yellow{
     display: block;
-    left: 72px;
+    left: 235px;
   
   }
 }
