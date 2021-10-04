@@ -63,13 +63,10 @@ a {
 
 @media screen and (max-width: 991px) {
   .justify-content-end {
-    grid-template-areas: "." "." "." ".";
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
     margin-left: 15px;
-    margin-right: 10px;
-    text-align: center;
-    max-width: 100%;
+    margin-right: 15px;
+     padding-left: 20px;
+     padding-right: 20px;
     
   }
 }
@@ -308,11 +305,26 @@ main {
 
 @media screen and (max-width: 991px) {
   .yellow {
-   max-width: 100%;
-   display: block;
-   position: absolute;
-   margin-left: 225px;
-   float: right;
+    display: flex;
+    float: right;
+    background-color: #E9B945;
+    bottom: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-family: Helvetica, sans-serif;
+    height: 250px;
+    width: 250px;
+    left: 10px;
+    line-height: 22px;
+    max-width: 100%;
+    position: relative;
+    right: 0px;
+    text-decoration: none;
+    top: 150px;
+    z-index: 10;
+    align-items: right;
+    justify-content: right;
   }
 }
 
