@@ -1,1 +1,0 @@
-<button class="emailReplyButton" onClick="sendEmail(message)"><a href="mailto:baldemarvillarreal91@gmail.com">Reply</a></button>
