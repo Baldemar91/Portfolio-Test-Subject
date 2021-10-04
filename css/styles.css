@@ -298,6 +298,7 @@ main {
    display: block;
    position: absolute;
    margin-left: 150px;
+   float: right;
   }
 }
 
@@ -306,6 +307,7 @@ main {
     max-width: 100%;
     display: block;
     position: absolute;
+    float: right;
   }
 }
 
@@ -313,6 +315,7 @@ main {
   .yellow{
     display: block;
     position: absolute;
+    float: right;
    
   }
 }
