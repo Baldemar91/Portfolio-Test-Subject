@@ -201,16 +201,16 @@ img.image-86 {
   max-width: 70%;
   opacity: 1;
   padding-top: 110px;
-  transition: opacity 1500ms ease 0s;
+  
 }
 
 
 
 @media screen and (max-width: 479px) {
   .image-86 {
-    position: relative;
     z-index: 0;
- margin-left: -40px;
+    margin-left: auto;
+
   }
 }
 
