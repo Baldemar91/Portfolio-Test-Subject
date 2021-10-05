@@ -50,14 +50,11 @@ a {
 
 @media screen and (max-width: 991px) {
   .justify-content-end {
-    grid-template-areas: "." "." "." ".";
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
     margin-left: 15px;
-    margin-right: 10px;
-    text-align: center;
-    max-width: 100%;
-    
+    margin-right: 15px;
+     padding-left: 20px;
+     padding-right: 20px;
+   
   }
 }
 
@@ -71,9 +68,9 @@ a {
 @media screen and (max-width: 479px) {
   .justify-content-end{
     max-width: 100%;
-   
+    
   }
-}
+} 
 
 
 
@@ -301,8 +298,7 @@ div.column-24.w-clearfix.w-col.w-col-6:before {
   grid-column-start: 1;
   grid-row-end: 2;
   grid-row-start: 1;
-  margin-left: auto;
-    margin-right: auto;
+  
 }
 
 @media screen and (max-width: 767px) {
