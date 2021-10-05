@@ -718,7 +718,18 @@ div#resume.section div#w-node-dac044b7-be90-60f3-414d-4224828ffe12-adaf0624 h3 {
 
 /* footer */
 
-
+.container-10.w-container {
+  box-sizing: border-box;
+  color: #333;
+  font-family: Helvetica,sans-serif;
+  line-height: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  position: relative;
+  z-index: 6;
+  margin-top: 8%;
+}
 
 .float-right {
   box-sizing: border-box;
