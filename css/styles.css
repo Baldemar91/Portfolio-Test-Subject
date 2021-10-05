@@ -195,6 +195,9 @@ main {
     flex-direction: row;
     position: relative;
     justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    
 }
 
 .blockset2 {
@@ -287,9 +290,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 0;
     
 }
-
 
 
 
@@ -300,12 +303,13 @@ main {
    margin-right: 15px;
     padding-left: 20px;
     padding-right: 20px;
+    
   }
 }
 
 @media screen and (max-width: 479px) {
   .green{
-    
+   
     margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
@@ -331,7 +335,7 @@ main {
     position: relative;
     right: 262px;
     top: 146px;
-    z-index: 1;
+    z-index: 2;
    
 }
 
@@ -341,9 +345,18 @@ main {
   .yellow {
    max-width: 100%;
    display: block;
-   position: absolute;
-   float: left;
-   margin-left: 100px;
+   position: relative;
+   float: right;
+  
+   
+  }
+  .title{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: white;
+  
   }
 }
 
@@ -351,19 +364,19 @@ main {
   .yellow{
     max-width: 100%;
     display: block;
-    position: absolute;
-    float: left;
-    margin-left: 100px;
+    float: right;
+   left: -7px;
+   height: 100px;
+   width: 100px;
   }
 }
 
 @media screen and (max-width: 479px) {
   .yellow{
     display: block;
-    position: absolute;
-    float: left;
-
-   
+    float: right; 
+    height: 100px;
+    width: 100px;
   }
 }
 
@@ -425,30 +438,33 @@ main {
    
 }
 @media screen and (max-width: 991px) {
-  .blue {
+  .blue  {
    max-width: 100%;
    display: block;
-   position: absolute;
+   position: relative;
    float: left;
-   margin-left: 45px;
+  
+   
   }
 }
 
 @media screen and (max-width: 767px) {
-  .blue{
+  .blue {
     max-width: 100%;
     display: block;
-    position: absolute;
     float: left;
+   left: 7px;
+   height: 100px;
+   width: 100px;
   }
 }
 
 @media screen and (max-width: 479px) {
-  .blue{
+  .blue {
     display: block;
-    position: absolute;
-    float: left;
-   
+    float: left; 
+    height: 100px;
+    width: 100px;
   }
 }
 
@@ -505,31 +521,36 @@ main {
     top: 150px;
     z-index: 1;
 }
+
 @media screen and (max-width: 991px) {
   .green2 {
-   position: absolute;
-    left: 103px;
-    z-index: 1;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  .green2 {
-    display: block;
-    float: none;
-    left: 0;
-    margin-left: 38px;
-    margin-right: auto;
-    overflow: visible;
-    right: 0;
+   max-width: 100%;
+   display: block;
+   position: relative;
+   float: right;
+   
    
   }
 }
 
 @media screen and (max-width: 767px) {
   .green2 {
-    left: 72px;
-  
+    max-width: 100%;
+    display: block;
+    float: right;
+   left: -7px;
+   height: 100px;
+   width: 100px;
+   
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .green2 {
+    display: block;
+    float: right; 
+    height: 100px;
+    width: 100px;
   }
 }
 
@@ -584,33 +605,38 @@ main {
     top: 150px;
     z-index: 10;
 }
+
 @media screen and (max-width: 991px) {
-  .red2{
+  .red2  {
    max-width: 100%;
    display: block;
-   position: absolute;
-   margin-left: 45px;
+   position: relative;
    float: left;
+  
+   
   }
 }
 
 @media screen and (max-width: 767px) {
-  .red2{
+  .red2 {
     max-width: 100%;
     display: block;
-    position: absolute;
     float: left;
+   left: 7px;
+   height: 100px;
+   width: 100px;
   }
 }
 
 @media screen and (max-width: 479px) {
-  .red2{
+  .red2  {
     display: block;
-    position: absolute;
-    float: left;
-   
+    float: left; 
+    height: 100px;
+    width: 100px;
   }
 }
+
 
 /* footer */
 
