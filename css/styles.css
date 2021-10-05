@@ -338,30 +338,32 @@ main {
 
 
 @media screen and (max-width: 991px) {
-  .yellow{
+  .yellow {
+   max-width: 100%;
+   display: block;
    position: absolute;
-    left: 103px;
-    z-index: 1;
+   float: left;
+   margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .yellow{
+    max-width: 100%;
+    display: block;
+    position: absolute;
+    float: left;
+    margin-left: 100px;
   }
 }
 
 @media screen and (max-width: 479px) {
   .yellow{
     display: block;
-    float: none;
-    left: 0;
-    margin-left: 38px;
-    margin-right: auto;
-    overflow: visible;
-    right: 0;
-   
-  }
-}
+    position: absolute;
+    float: left;
 
-@media screen and (max-width: 767px) {
-  .yellow{
-    left: 72px;
-  
+   
   }
 }
 
