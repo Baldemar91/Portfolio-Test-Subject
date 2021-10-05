@@ -119,7 +119,7 @@ div.row-17.w-row:after {
     grid-template-areas: "." "." "." ".";
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
-    margin-left: 30px;
+    margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 80%;
@@ -135,8 +135,10 @@ div.row-17.w-row:after {
 
 @media screen and (max-width: 479px) {
   .w-row, .w-container .w-row{
+    margin-left: auto;
+    margin-right: auto;
     max-width: none;
-    width: 100%;
+    width: 70%;
   }
 }
 
@@ -162,7 +164,7 @@ div.column-23.w-col.w-col-6 {
     grid-template-areas: "." "." "." ".";
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
-    margin-left: 30px;
+    margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 40%;
@@ -269,7 +271,7 @@ div.column-24.w-clearfix.w-col.w-col-6 {
     grid-template-areas: "." "." "." ".";
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
-    margin-left: 30px;
+    margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 80%;
@@ -299,6 +301,8 @@ div.column-24.w-clearfix.w-col.w-col-6:before {
   grid-column-start: 1;
   grid-row-end: 2;
   grid-row-start: 1;
+  margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -337,7 +341,7 @@ div.column-24.w-clearfix.w-col.w-col-6:after {
 @media screen and (max-width: 767px) {
   div.column-24.w-clearfix.w-col.w-col-6 {
     left: auto;
-    margin-top: -136px;
+    margin-top: -90px;
     overflow: visible;
     padding-bottom: 115px;
     right: auto;
@@ -425,17 +429,10 @@ p.paragraph-2 {
 
 /*experience and resume*/
 div#resume.section {
-  border-bottom: 1px none rgba(0, 0, 0, .12);
-  border-top: 1px none #000;
-  box-sizing: border-box;
-  color: #1a1b1f;
   column-gap: 16px;
-  display: block;
-  font-family: Helvetica, sans-serif;
   grid-auto-columns: 1fr;
   grid-template-columns: minmax(auto, auto) minmax(auto, auto) minmax(auto, auto);
   grid-template-rows: auto auto;
-  line-height: 28px;
   margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -444,6 +441,15 @@ div#resume.section {
   padding-left: 60px;
   padding-right: 60px;
   row-gap: 16px;
+  box-sizing: border-box;
+  color: #000;
+  display: block;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight:400;
+  letter-spacing: -.2px;
+  line-height: 30px;
+  text-align: left;
 }
 
 @media screen and (max-width: 991px) {
@@ -451,24 +457,29 @@ div#resume.section {
     grid-template-areas: "." "." "." ".";
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
-    margin-left: 30px;
+    margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 80%;
+    width: 40%;
+    position: relative;
   }
 }
 
 @media screen and (max-width: 767px) {
-  div#resume.section {
+  div#resume.section   {
     max-width: 470px;
-    width: 70%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 150px;
+    position: relative;
   }
 }
 
 @media screen and (max-width: 479px) {
-  div#resume.section{
-    max-width: none;
+  div#resume.section  {
+    max-width: 100%;
     width: 100%;
+    position: relative;
   }
 }
 
@@ -541,7 +552,7 @@ div.w-layout-grid.personal-features-grid {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -711,18 +722,7 @@ div#resume.section div#w-node-dac044b7-be90-60f3-414d-4224828ffe12-adaf0624 h3 {
 
 /* footer */
 
-.container-10.w-container {
-  box-sizing: border-box;
-  color: #333;
-  font-family: Helvetica,sans-serif;
-  line-height: 22px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
-  position: relative;
-  z-index: 6;
-  margin-top: 5%;
-}
+
 
 .float-right {
   box-sizing: border-box;
@@ -773,7 +773,6 @@ div#resume.section div#w-node-dac044b7-be90-60f3-414d-4224828ffe12-adaf0624 h3 {
   text-align: left;
 }
 
-
 @media screen and (max-width: 991px) {
   .container-10.w-container {
     grid-template-areas: "." "." "." ".";
@@ -783,7 +782,7 @@ div#resume.section div#w-node-dac044b7-be90-60f3-414d-4224828ffe12-adaf0624 h3 {
     margin-right: 100px;
     text-align: center;
     max-width: 900px;
-    
+    margin-top: 15%;
   }
 }
 
@@ -800,6 +799,7 @@ div#resume.section div#w-node-dac044b7-be90-60f3-414d-4224828ffe12-adaf0624 h3 {
    
   }
 }
+
 
 @media screen and (max-width: 991px) {
   .footer-text  {
